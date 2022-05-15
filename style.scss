@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.box-color {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    .color {
+        height: 80px;
+        width: 80px;
+        border-radius: 300px;
+        box-shadow: 1px 1px 5px black;
+        &:hover {
+            cursor: pointer;
+            transform: scale(0.9);
+            transition: 0.6s ease;
+        }
+    }
+}
